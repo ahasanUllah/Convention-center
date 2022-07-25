@@ -85,14 +85,15 @@
               aria-label="Slide 2"
             ></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/banner.png" class="d-block w-100" alt="..." />
-              <div class="carousel-caption mb-5 d-none d-md-block m-auto">
+          <div class="carousel-inner ">
+            <div class="carousel-item active min-height">
+              <img src="images/banner.png" class=" w-100 min-height" alt="..." />
+              <div class="carousel-caption mb-md-5  m-auto">
                 <h5 class="display-5 fw-bold">
                   The perfect venue for your next event
                 </h5>
-                <p>
+                
+                <p class="">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit
                 </p>
@@ -104,13 +105,13 @@
                 </button>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item min-height">
               <img
                 src="images/banner.png"
-                class="d-block w-100 img-fluid"
+                class="d-block w-100 min-height"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block mx-auto mb-5 w-50">
+              <div class="carousel-caption mx-auto mb-5 w-50">
                 <h5 class="display-5 fw-bold">
                   The perfect venue for your next event
                 </h5>
@@ -146,13 +147,25 @@
     <!-- Explore Album -->
     <section class="my-5">
       <div class="container py-5">
+        
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6">
             <img src="images/wedding.png" alt="" class="img-fluid" />
           </div>
           <div class="col-md-6">
+            
             <h1 class="d-5 fw-bold">Every moment is Precious</h1>
             <p class="my-4">
+              <!-- toast -->
+            <div class="toast align-items-center fade show toast-main  " role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="d-flex border-start border-primary border-5">
+                <div class="toast-body">
+                  <span class="fs-6"><i class="bi bi-gift text-primary"></i> 20% off on next booking</span>
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+            </div>
+        <!-- toast end -->
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
               iste quae exercitationem deserunt dolores, eum quos, quas,
               voluptates culpa quibusdam aliquam consectetur maiores enim amet.
@@ -253,6 +266,12 @@
           <!-- card 3 -->
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card py-4 bg-primary text-light border-0">
+              <!-- Badge -->
+              <span class="position-absolute me-5 p-2 top-0 end-0 translate-middle badge rounded-pill bg-danger ">
+                Hot
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <!-- Badge end -->
               <div class="card-body px-5">
                 <h1 class="card-title fw-bold d-5">$800</h1>
                 <h2 class="mb-3">Wedding plus</h2>

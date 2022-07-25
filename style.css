@@ -7,3 +7,12 @@
 .footer {
   min-height: 280px;
 }
+.toast-main {
+  width: 280px;
+  position: absolute;
+  top: 50;
+  right: 0;
+}
+.min-height {
+  min-height: 585px;
+}
